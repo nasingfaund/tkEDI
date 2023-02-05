@@ -1,5 +1,5 @@
 ###333###############################################################333###
-# autor: nasingfaund aka Serj Kado
+# author: nasingfaund aka Serj Kado
 # e-mail: nasingfaund@gmail.com
 # e-mail2: nasingfaund@ya.ru
 ###333###############################################################333###
@@ -33,12 +33,12 @@ def open_file(): ### function fo open .py file
 
 
 def save_as(): ### s
-    if file_path == '': ### if NO file's path ==>> set path
+    if file_path == '': ### if no preexisting file path, ask to save in new place.
         path = asksaveasfilename(filetypes=[('Python Files', '*.py')]) 
     else:
         path = file_path ### else use path 
-    with open(path, 'w') as file: ### open file im write regime 
-        code = edi.get('1.0', END) ### berem data from begin to end in edi window
+    with open(path, 'w') as file: ### open file in write regime 
+        code = edi.get('1.0', END) ### load data from begin to end in edi window
         file.write(code) ### write data to file
         set_file_path(path) 
 
@@ -67,8 +67,8 @@ def run(): ### 'run' function for py code
     co_res.insert(END, 'error:')
     co_res.insert(END, '\n')
     if error == b'':
-        co_res.config(fg='green') ### normal text color
-        co_res.insert(END, 'No errors') ### show that text if errors NO!!!
+        co_res.config(fg='green') ### default text color
+        co_res.insert(END, 'No errors') ### show  text if NO errors!!!
     else:
         co_res.config(fg='red') ### error text color
         co_res.insert(END,  error) ### show error text
@@ -115,4 +115,4 @@ co_res.pack(expand=1, fill=BOTH)
 
 
 wnd.mainloop() #### Super Top Command!!!!
-###EOOFFFoff_11.01.2023_17.46MSK_tkIDE_pre_finish_version: 0.1.0 Total: 118 lines of py code
+###EOOFFFoff_5.02.2023_17.46MSK_tkEDI_pre_finish_version: 0.1.0 Total: 118 lines of py code
