@@ -23,6 +23,6 @@ also:
 
 ::: https://stackowerflow.com
 
-02.04.2023 Next project: offine (desktop) code editor (IDE) for html, css, js with embedded browser (on CERpython) for show result to run code. Code soon.
+02.04.2023 Next project: offine (desktop) code editor (IDE) for html, css, js with embedded browser (on CEFpython) for show result to run code. Code soon.
 ![02 04 2023_tkEDIhtmlCEF_screnshot](https://user-images.githubusercontent.com/98592440/229360518-124cc813-6096-4cdf-8ea9-12286ed321bf.jpg)
 
