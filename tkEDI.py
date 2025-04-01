@@ -52,8 +52,7 @@ def run(): ### 'run' function for py code
         text.pack() ### pack Toplevel window with main window (wnd)
         return
     command = f'python {file_path}'  ###create command from file path
-    ###command2 = 'py -3 command'
-    process = subprocess.Popen(['cmd.exe', '/k', command], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True) ### run cmd.exe 
+    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True) ### run cmd.exe 
     output = None
     error = None
     output, error = process.communicate() ### poluchaem values from process (output, error)
@@ -116,3 +115,4 @@ co_res.pack(expand=1, fill=BOTH)
 
 wnd.mainloop() #### Super Top Command!!!!
 ###EOOFFFoff_11.01.2023_17.46MSK_tkIDE_pre_finish_version: 0.1.0 Total: 118 lines of py code
+###01.04.2025 mikrochange
