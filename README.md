@@ -28,3 +28,7 @@ also:
 
 17.08.2025 last tkEDI 0.1.1:
 <img width="801" height="702" alt="image" src="https://github.com/user-attachments/assets/7b072e88-fbe6-427a-a904-7da47161acfb" />
+
+20.08.2025 add external window with windows command prompt (cmd.exe)L
+<img width="1249" height="699" alt="image" src="https://github.com/user-attachments/assets/eb905fc9-4bf1-4021-a29b-1f04984b9fd7" />
+
