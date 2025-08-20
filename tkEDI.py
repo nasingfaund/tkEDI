@@ -133,13 +133,13 @@ co_res.bind('<Return>', run_cmd)
 # co2_res window (code block 4)
 ###################################################
 
-#os.system(
-        #'start cmd /k "' +
-        #'color 1f & ' +
-        #'mode con: cols=140 lines=15000 &' +
-        #'title cmd ' +
-        #'"'
-    #)
+os.system(
+        'start cmd /k "' +
+        'color 1f & ' +
+        'mode con: cols=140 lines=15000 &' +
+        'title cmd ' +
+        '"'
+    )
 
 wnd.mainloop() #### Super Top Command!!!!
 #####################2
